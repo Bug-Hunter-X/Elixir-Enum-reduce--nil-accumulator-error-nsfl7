@@ -1,0 +1,3 @@
+# Elixir Enum.reduce - Handling Nil Accumulator
+
+This repository demonstrates a common error when using `Enum.reduce` in Elixir:  not handling the case where the accumulator is nil, typically when the input list is empty. The code in `bug.exs` illustrates the problem and throws an error.  The solution, in `bugSolution.exs`, shows how to correctly handle this using a default value for the accumulator.
